@@ -21,7 +21,7 @@ from . import storage
 
 HERE = Path(__file__).parent
 
-app = FastAPI(title="Things to bring")
+app = FastAPI(title="Car Rating")
 app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
 templates = Jinja2Templates(directory=HERE / "templates")
 
@@ -35,8 +35,8 @@ def show_list(request: Request):
 
 
 @app.post("/add")
-def add(thing: str = Form(...), person: str = Form(...)):
+def add(car: str = Form(...), rating: str = Form(...)):
     """The form on the start page sends its fields here."""
-    storage.add_entry(thing=thing.strip(), person=person.strip())
+    storage.add_entry(car=rating.strip(), rating=car.strip())
     # Back to the start page. 303 tells the browser: load it with GET.
     return RedirectResponse("/", status_code=303)
