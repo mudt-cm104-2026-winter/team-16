@@ -3,33 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Things to bring</title>
+  <title>Car ratings</title>
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
   <main>
-    <h1>Things to bring</h1>
-    <p class="intro">Who brings what to our team evening?</p>
+    <h1>Car Rating</h1>
+    <p class="intro">Rate a car from 1 to 10</p>
 
     <form class="add" action="/add" method="post">
-      <input name="thing" placeholder="What?" required autocomplete="off" autofocus>
-      <input name="person" placeholder="Who?" required autocomplete="off">
+      <input name="car" placeholder="Car" required autocomplete="off" autofocus>
+      <input name="rating" placeholder="Rating" required autocomplete="off" type="number" min="1" max="10">
       <button type="submit">Add</button>
     </form>
 
     {% if entries %}
     <table>
       <thead>
-        <tr><th>What</th><th>Who</th></tr>
+        <tr><th>Car</th><th>Rating</th></tr>
       </thead>
       <tbody>
         {% for entry in entries %}
-        <tr><td>{{ entry.thing }}</td><td>{{ entry.person }}</td></tr>
+        <tr><td>{{ entry.car }}</td><td>{{ entry.rating }}</td></tr>
         {% endfor %}
       </tbody>
     </table>
     {% else %}
-    <p class="empty">Nothing here yet.</p>
+    <p class="empty">No cars rated yet</p>
     {% endif %}
   </main>
 </body>
