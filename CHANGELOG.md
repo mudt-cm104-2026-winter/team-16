@@ -5,6 +5,7 @@
 Example:
 - Entries can be deleted (#7)
 -->
+- The app is now about car ratings: car name and rating 1-10 (#20)
 
 ## Unreleased
 
