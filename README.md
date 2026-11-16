@@ -4,7 +4,11 @@
 
 ## What this is
 
+
 Car rating app
+
+A simple car ratings app where you add a car and a rating from 1 to 10.
+
 
 ## How to run it
 
