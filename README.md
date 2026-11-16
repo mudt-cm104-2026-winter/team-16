@@ -4,8 +4,7 @@
 
 ## What this is
 
-<!-- One or two sentences: what does your app do, and who is it for?
-Right now it is the example "Things to bring". Replace it with your topic. -->
+Car rating app
 
 ## How to run it
 
@@ -48,7 +47,4 @@ No real names: this repository is public. -->
 
 ## Use of AI
 
-<!-- One entry per use, added on the day you use it:
-- 2026-11-05: <tool>, used for <what>, checked by <how you checked the result>
-"none" is a valid entry.
--->
+AI helped us to change the code in the template to adapt the app to our idea
