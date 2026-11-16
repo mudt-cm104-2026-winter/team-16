@@ -4,7 +4,11 @@
 
 ## What this is
 
+
+Car rating app
+
 A simple car ratings app where you add a car and a rating from 1 to 10.
+
 
 ## How to run it
 
@@ -47,7 +51,4 @@ No real names: this repository is public. -->
 
 ## Use of AI
 
-<!-- One entry per use, added on the day you use it:
-- 2026-11-05: <tool>, used for <what>, checked by <how you checked the result>
-"none" is a valid entry.
--->
+AI helped us to change the code in the template to adapt the app to our idea
