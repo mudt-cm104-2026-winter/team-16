@@ -4,8 +4,7 @@
 
 ## What this is
 
-<!-- One or two sentences: what does your app do, and who is it for?
-Right now it is the example "Things to bring". Replace it with your topic. -->
+A simple car ratings app where you add a car and a rating from 1 to 10.
 
 ## How to run it
 
