@@ -1,6 +1,6 @@
 """Car Ratings: users rate cars from 1 to 10, the app shows the ratings.
 
-What happens where:
+
 """
 
 from pathlib import Path
