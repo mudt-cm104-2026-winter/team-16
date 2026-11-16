@@ -29,7 +29,8 @@ No real names: this repository is public. -->
 
 | GitHub | Role |
 |S3MXL|Pull Request Review, Branch Merge, README Changes|
-
+|sshieru|Python Programming, Pull Request Review|
+|maruskinshere|Changes to README, Changelog, Pull Request Review|
 ## How we work
 
 <!-- How your team uses Git. For example:
