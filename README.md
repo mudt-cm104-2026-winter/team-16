@@ -28,7 +28,7 @@ The entries are kept in memory: after a restart the list is empty again.
 No real names: this repository is public. -->
 
 | GitHub | Role |
-|---|---|
+|S3MXL|Pull Request Review, Branch Merge, README Changes|
 
 ## How we work
 
