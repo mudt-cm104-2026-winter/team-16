@@ -1,6 +1,5 @@
 # Team project
-
-<!-- Replace the title with your project name. -->
+Our project name: Car rating app. (Potentially Carate)
 
 ## What this is
 
