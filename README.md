@@ -6,7 +6,8 @@ Our project name: Car rating app. (Potentially Carate)
 
 Car rating app
 
-A simple car ratings app where you add a car and a rating from 1 to 10.
+A simple car ratings app where you add a car and a rating from 1 to 10. 
+It also creates a table with the cars and the ratings which are put by the user.
 
 
 ## How to run it
